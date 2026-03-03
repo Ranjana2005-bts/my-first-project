@@ -1,7 +1,10 @@
+/* General page styling */
 body {
   font-family: Arial, sans-serif;
   text-align: center;
-  background: #f4f4f4;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
 }
 
 h1 {
@@ -9,10 +12,20 @@ h1 {
 }
 
 button {
-  background: #0078d7;
+  background-color: #0078d7;
   color: white;
   border: none;
   padding: 10px 20px;
   margin-top: 10px;
   cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
 }
